@@ -3,7 +3,7 @@ package arrays;
 public class MaxProfitMadByStocks {
 	/*
 	 * Given an array having stock price on day i, Find the the max profit which 
-	 * can be made , provided the buying and selling is allowed any number of times,
+	 * can be made, provided the buying and selling is allowed any number of times,
 	 * one can not sell stock without buying.
 	 */
 
