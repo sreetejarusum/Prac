@@ -3,8 +3,9 @@ package arrays;
 public class BestTimeToBuyandSellStock {
 	/*
 	 * Given an array having stock price on day i, Find the the max profit which 
-	 * can be made , provided the buying and selling is allowed only once, one can not sell
-	 * stock without buying.
+	 * can be made , provided the buying and selling is allowed only once, one 
+	 * can not sell stock without buying.
+	 * 
 	 */
 	public static int maxProfit(int [] arr) {
 		int maxProfit=0;
