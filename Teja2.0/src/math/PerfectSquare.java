@@ -11,7 +11,7 @@ public class PerfectSquare {
 		int start=2;
 		int end=num/2;
 		
-		while(start<=end) {
+		while(start<end) {
 			int mid=start+(end-start)/2;
 			
 			if(mid*mid==num) {
@@ -27,7 +27,7 @@ public class PerfectSquare {
 	
 	public static void main(String[] args) {
 		
-		System.out.println(isPerfectSquare(25));
+		System.out.println(isPerfectSquare(36));
 		
 	}
 
