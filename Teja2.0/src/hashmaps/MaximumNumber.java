@@ -16,6 +16,8 @@ public class MaximumNumber {
 				hm.put(in, hm.get(in)+1);
 			}
 		}
+		
+		
 		Set<Entry<Integer,Integer>> entry=hm.entrySet();
 		for(Entry<Integer, Integer> i:entry) {
 			if(i.getValue()>arr.length/2) {
